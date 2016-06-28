@@ -23,6 +23,13 @@ h3 {
   margin-bottom: 20px;
   color: #3D4351; }
 
+h3 span {
+    font-size: 25px;
+    border-bottom: 2px solid #FF5274;
+    padding-bottom: 12px;
+    line-height: 3;
+}
+
 h4 {
   font-size: 18px; }
 
@@ -31,6 +38,14 @@ h5 {
   color: #3D4351;
   text-transform: uppercase;
   font-weight: 500; }
+h5 span{
+  color: #FF5274;
+}
+
+a span{
+  border-bottom: 1px solid #FF5274;
+  line-height: 3;
+}
 
 .btn {
   font-size: 13px;
@@ -361,8 +376,9 @@ Hero
     margin-bottom: 40px; }
   .hero p.intro {
     color: #fff;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 300;
+    font-style: italic;
     margin-bottom: 80px; }
   .hero .hero-content {
     padding-top: 26%; }
@@ -399,13 +415,17 @@ header {
   header ul.primary-nav {
     margin: 0 0 0 75px;
     padding: 0; }
-    header ul.primary-nav li {
+  header ul.primary-nav li {
       display: inline; }
-      header ul.primary-nav li a {
-        color: #fff;
-        padding-right: 25px; }
-        header ul.primary-nav li a:hover {
+  header ul.primary-nav li a {
+      color: #fff;
+      padding-right: 25px; }
+  header ul.primary-nav li a:hover {
           color: #FF5274; }
+
+  header ul.primary-nav li a.active-link {
+          color: #FF5274; }
+
       header ul.primary-nav li:last-child a {
         padding-right: 0px; }
   header ul.member-actions li {
@@ -443,6 +463,7 @@ Intro
 
 .intro-icon {
   display: inline-block;
+
   vertical-align: top;
   padding: 6px 0 0 0;
   margin-right: 20px;
@@ -592,6 +613,8 @@ Features-stack
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%); }
+
+   
 
 /* ==========================================================================
 .blog-intro
@@ -1190,3 +1213,19 @@ you can use the generic selector below, but it's slower:
 
 .icon-dribbble:before {
   content: "\e063"; }
+
+.profile-picture{
+  float: left;
+  margin-right: 50px;
+}
+
+#team{
+  text-align: left;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#team .feature-content{
+  width: 100%;
+}
+
