@@ -83,6 +83,9 @@ section.intro, section.features-extra, section.sign-up {
 section.features, section.blog-intro, section.blog {
   background: #F3F4F8; }
 
+section.features-right, section.blog-intro, section.blog {
+  background: #ffffff; }
+
 /* ==========================================================================
 Global Styles
 ========================================================================== */
@@ -457,8 +460,9 @@ Features-stack
   .features p {
     margin-bottom: 0;
     padding-bottom: 0; }
-  .features h3 {
-    margin: 0 0 20px 0; }
+  .features h4 {
+    
+    line-height: 150%; }
   .features span.icon {
     font-size: 35px;
     color: #FF5274;
@@ -470,6 +474,7 @@ Features-stack
     margin-right: 20px;
     width: 35px; }
   .features .feature-content {
+    color: #FFFFFF;
     display: inline-block;
     width: 75%; }
   .features .intro-icon {
@@ -486,15 +491,43 @@ Features-stack
     margin-top: 20px;
     padding-bottom: 20px;
     border-bottom: solid 1px #E6E9EA; }
+ 
   .features ul.features-stack li:last-child {
     padding-bottom: 0px;
     border-bottom: none; }
-  .features .ipad-wrap {
+  .features .ipad-wrap-1 {
     width: 706px;
     height: 1100px;
     position: relative;
     left:200px;
+    background: url("../img/thrill.png") no-repeat left top;
+    background-size: 100%;
+    z-index: 1; }
+
+  .features .ipad-wrap-2{
+    width: 706px;
+    height: 1100px;
+    position: relative;
+    left: 800px;
     background: url("../img/needle.png") no-repeat left top;
+    background-size: 100%;
+    z-index: 1; }
+
+  .features .ipad-wrap-3 {
+    width: 706px;
+    height: 1100px;
+    position: relative;
+    left:200px;
+    background: url("../img/rule.png") no-repeat left top;
+    background-size: 100%;
+    z-index: 1; }
+  
+  .features .ipad-wrap-4{
+    width: 706px;
+    height: 1100px;
+    position: relative;
+    left: 800px;
+    background: url("../img/puzzle.png") no-repeat left top;
     background-size: 100%;
     z-index: 1; }
   
@@ -521,7 +554,8 @@ Features-stack
     position: absolute;
     width: 916px;
     height: 540px;
-    background: url("../img/macbook-pro.png") no-repeat center center;
+    background: url("../img/needle.png") no-repeat right top;
+    background-size: 100%;
     top: 114px;
     z-index: 4;
     left: 50%; }
