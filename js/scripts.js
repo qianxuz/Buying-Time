@@ -8,7 +8,7 @@ $(document).ready(function() {
 		offset: '75%'
 	});
 	$('.wp2').waypoint(function() {
-		$('.wp2').addClass('animated fadeInUp');
+		$('.wp2').addClass('animated fadeInLeft');
 	}, {
 		offset: '75%'
 	});
@@ -57,7 +57,7 @@ $(document).ready(function() {
 				$('section.navigation').addClass('fixed');
 				$('header').css({
 					"border-bottom": "none",
-					"padding": "35px 0"
+					"padding": "25px 0"
 				});
 				$('header .member-actions').css({
 					"top": "26px",
