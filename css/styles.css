@@ -10,6 +10,10 @@ p {
   color: rgba(28, 54, 83, 0.6);
   padding-bottom: 20px; }
 
+p .signup {
+    padding-bottom: 5px;
+}
+
 h1 {
   font-size: 60px; }
 
@@ -35,6 +39,12 @@ h3 span {
     height: 100%;
 }
 
+ul .process-work{
+    padding-left: 25px;
+    padding-right: 45px;
+    color: white;
+}
+
 .subtitle {
     color: white;
     line-height: 1.6;
@@ -52,6 +62,10 @@ h3 span {
 .tagline {
     text-transform: uppercase;
     font-size: 20px;
+}
+
+#mc_embed_signup{
+    background:#333844; clear:left;
 }
 
 .benefit {
