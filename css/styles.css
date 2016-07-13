@@ -62,8 +62,26 @@ h3 span {
     line-height: 3;
 }
 
-.spacer {
-    height: 150px;
+.spacer1 {
+    height: 250px;
+}
+
+.spacer2 {
+    height: 400px;
+}
+
+.spacer3 {
+    height: 275px;
+}
+
+@media (max-width: 991px) {
+    .spacer1, .spacer2, .spacer3 {
+        height: 50px;
+    }
+    
+    .feature-pad {
+        margin-left: 50px;   
+    }
 }
 
 h4 {
@@ -569,19 +587,19 @@ Features-stack
 
   .features .ipad-wrap-3 {
     width: 706px;
-    height: 1100px;
+    height: 1125px;
     position: relative;
-    left:200px;
-    background: url("../img/rule.png") no-repeat left top;
+    left:250px;
+    background: url("../img/buyer-order.png") no-repeat left top;
     background-size: 100%;
     z-index: 1; }
   
   .features .ipad-wrap-4{
     width: 706px;
-    height: 1100px;
+    height: 1250px;
     position: relative;
     left: 800px;
-    background: url("../img/puzzle.png") no-repeat left top;
+    background: url("../img/buyer-history.png") no-repeat left top;
     background-size: 100%;
     z-index: 1; }
   
