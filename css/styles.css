@@ -34,14 +34,25 @@ h3 span {
     line-height: 3;
 }
 
+li.process-work {
+    color: white;
+    padding-left: 25px;
+    padding-right: 50px;
+}
+
 .product-home img {
     width: 100%;
     height: 100%;
 }
 
-ul .process-work{
-    padding-left: 25px;
-    padding-right: 45px;
+.vendor-bkgr {
+    min-height: 450px;
+    background: url("../img/vendor-bkgr.jpg") center center;
+    background-size: cover;
+    position: relative;
+}
+
+.vendor-bkgr h5{
     color: white;
 }
 
@@ -52,10 +63,10 @@ ul .process-work{
 }
 
 .darkbg {
-    color: white
+    color: white;
 }
 
-.darkbg p{
+.darkbg p, h5, h2 {
     color: white
 }
 
@@ -88,17 +99,6 @@ ul .process-work{
     height: 275px;
 }
 
-@media (max-width: 991px) {
-    .spacer1, .spacer2, .spacer3 {
-        height: 75px;
-    }
-    
-    .feature-pad {
-        margin-left: 50px;
-        margin-bottom: 25px;
-    }
-}
-
 h4 {
   font-size: 25px; }
 
@@ -107,6 +107,7 @@ h5 {
   color: #3D4351;
   text-transform: uppercase;
   font-weight: 500; }
+
 h5 span{
   color: #FF5274;
 }
@@ -162,7 +163,7 @@ a span{
   margin-right: 20px; }
 
 section.intro, section.features-extra, section.sign-up {
-  background: #fff; }
+ }
 
 section.features, section.blog-intro, section.blog {
   background: #3D4351; }
@@ -211,7 +212,8 @@ ul li {
   list-style: none; }
 
 .section-padding {
-  padding: 120px 0; }
+    padding: 120px 0px;
+}
 
 .tooltip {
   position: absolute;
@@ -430,9 +432,9 @@ Navigation
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero {
+.hero{
   min-height: 750px;
-  background: url("../img/capstone.png") center center;
+  background: url("../img/buyer-splash.jpg") center center;
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
@@ -463,7 +465,7 @@ Hero
   width: 100%; }
 
 header {
-  padding: 30px 0;
+  padding: 25px 0;
   border-bottom: solid 1px rgba(255, 255, 255, 0.2);
   position: relative;
   width: 1170px;
@@ -757,6 +759,16 @@ Features-stack
 .testimonial-slider {
   background: url("../img/testimonials-bg.jpg") no-repeat center center;
   background-size: cover; }
+
+.testimonial-slider h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 30px 0;
+    line-height: 1.5em;
+}
+
   .testimonial-slider .avatar {
     width: 82px;
     height: 82px;
@@ -774,7 +786,9 @@ Features-stack
     font-size: 40px;
     font-weight: 300;
     font-style: italic;
-    margin: 30px 0; }
+    margin: 30px 0;
+    line-height: 1.5em;
+}
   .testimonial-slider p {
     color: #ACB1B4;
     text-transform: uppercase;

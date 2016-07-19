@@ -1,0 +1,110 @@
+h3 span {
+    font-size: 25px;
+    border-bottom: 2px solid #2fbcc9;
+    padding-bottom: 12px;
+    line-height: 3;
+}
+
+.benefit {
+    text-transform: uppercase;
+    font-size: 20px;
+    border-top: 1px solid #2fbcc9;
+    padding-top: 12px;
+    line-height: 3;
+}
+
+h5 span{
+  color: #2fbcc9;
+}
+
+.btn:hover, .btn:focus {
+  color: #fff;
+  border-color: #2fbcc9;
+  background-color: #2fbcc9; }
+
+.btn-white {
+  font-size: 13px;
+  border: solid 2px;
+  border-radius: 40px;
+  display: inline-block;
+  border-color: #fff; }
+
+.btn-white:hover, .btn-white:focus {
+  color: #2fbcc9;
+  border-color: #2fbcc9; }
+
+.btn-fill {
+  color: #fff;
+  border: solid 2px #2fbcc9;
+  border-radius: 40px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #2fbcc9; }
+
+.btn-fill:hover, .btn-fill:focus {
+  color: #fff;
+  background-color: #29a9b4;
+  border-color: #29a9b4; }
+
+a {
+  color: #2fbcc9;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  -webkit-transition-property: color, border-color, background-color;
+  transition-property: color, border-color, background-color; }
+
+a:hover, a:focus {
+  color: #29a9b4;
+  text-decoration: none; }
+
+.intro span.icon {
+  font-size: 40px;
+  color: #2fbcc9;
+  font-weight: bold; }
+
+  .features span.icon {
+    font-size: 35px;
+    color: #2fbcc9;
+    font-weight: bold; }
+
+  .sign-up .signup-form .form-input-group i {
+    color: #2fbcc9;
+    font-size: 14px; }
+
+.testimonial-slider {
+  background: url("../img/vendor-bkgr.jpg") no-repeat center center;
+  background-size: cover; }
+
+.hero{
+  min-height: 750px;
+  background: url("../img/vendor-splash.jpg") center center;
+  background-size: cover;
+  position: relative; }
+  .hero .down-arrow a {
+    color: #fff; }
+  .hero h1 {
+    color: #fff;
+    margin-bottom: 40px; }
+  .hero p.intro {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 80px; }
+  .hero .hero-content {
+    padding-top: 26%; }
+
+  .features .ipad-wrap-1 {
+    width: 806px;
+    height: 1340px;
+    position: relative;
+    left:330px;
+    background: url("../img/vendor-program.png") no-repeat left top;
+    background-size: 100%;
+    z-index: 1; }
+
+.spacer1 {
+    height: 360px;
+}

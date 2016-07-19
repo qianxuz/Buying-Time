@@ -15,7 +15,7 @@
 
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (min-width:1024px) {
 }
 
 /* Responsive nav kicks in */
@@ -24,7 +24,16 @@
 		width: 90%;
 		padding-left: 25px;
 	}
-
+    
+    .spacer1, .spacer2, .spacer3 {
+        height: 75px;
+    }
+    
+    .feature-pad {
+        margin-left: 50px;
+        margin-bottom: 25px;
+    }
+    
 	.hero .hero-content {
 		padding-top: 32%;
 	}
