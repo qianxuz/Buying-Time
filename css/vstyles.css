@@ -108,3 +108,16 @@ a:hover, a:focus {
 .spacer1 {
     height: 360px;
 }
+
+.spacer2 {
+    height: 260px;
+}
+
+  .features .ipad-wrap-2{
+    width: 706px;
+    height: 1100px;
+    position: relative;
+    left: 750px;
+    background: url("../img/vendor-history.png") no-repeat left top;
+    background-size: 100%;
+    z-index: 1; }
