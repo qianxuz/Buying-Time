@@ -25,6 +25,16 @@
 		padding-left: 25px;
 	}
     
+    .profile-image {
+        margin: auto;
+        position: relative;
+        width: 250px;
+        height: auto;
+        padding-top: 75px;
+        padding-bottom: 25px;
+        
+    }
+    
     .spacer1, .spacer2, .spacer3 {
         height: 75px;
     }

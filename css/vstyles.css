@@ -96,6 +96,24 @@ a:hover, a:focus {
   .hero .hero-content {
     padding-top: 26%; }
 
+.spacer1 {
+    height: 360px;
+}
+
+.spacer2 {
+    height: 260px;
+}
+
+#mc_embed_signup{
+    background:#fff; clear:left;
+}
+
+.hero-strip {
+  margin-top: 120px;
+  background: #fff url("../img/polygonal-bg.jpg") no-repeat center center;
+  padding-bottom: 190px;
+  position: relative; }
+
   .features .ipad-wrap-1 {
     width: 806px;
     height: 1340px;
@@ -105,19 +123,20 @@ a:hover, a:focus {
     background-size: 100%;
     z-index: 1; }
 
-.spacer1 {
-    height: 360px;
-}
-
-.spacer2 {
-    height: 260px;
-}
-
   .features .ipad-wrap-2{
     width: 706px;
     height: 1100px;
     position: relative;
     left: 750px;
     background: url("../img/vendor-history.png") no-repeat left top;
+    background-size: 100%;
+    z-index: 1; }
+
+  .features .ipad-wrap-3 {
+    width: 706px;
+    height: 1125px;
+    position: relative;
+    left:250px;
+    background: url("../img/vendor-make-order.png") no-repeat left top;
     background-size: 100%;
     z-index: 1; }

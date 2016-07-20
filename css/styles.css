@@ -40,6 +40,18 @@ li.process-work {
     padding-right: 50px;
 }
 
+.portfolio-icon {
+    display: inline-block;
+    font-size: 25px;
+    color: #FF5274;
+    font-weight: bold;
+    padding-right: 10px
+}
+
+.portfolio-link {
+    display: inline-block;
+}
+
 .product-home img {
     width: 100%;
     height: 100%;
@@ -73,6 +85,18 @@ li.process-work {
 .tagline {
     text-transform: uppercase;
     font-size: 20px;
+}
+
+.profile {
+    padding: 50px 25px 0px 25px;
+    height: 350px;
+}
+
+.profile-image {
+    display: block;
+    position: absolute;
+    right: 30px;
+    height: 200px;
 }
 
 #mc_embed_signup{
@@ -1306,6 +1330,7 @@ you can use the generic selector below, but it's slower:
 }
 
 #team .feature-content{
+  padding-top: 50px;
   width: 100%;
 }
 
