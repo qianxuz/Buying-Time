@@ -36,6 +36,7 @@
     
     .center-title {
         text-align: center;
+        margin-left: 50px;
     }
     
     .spacer1, .spacer2, .spacer3 {
@@ -285,6 +286,11 @@
 			padding-top: 41%;
 		}
 
+        .center-title {
+        text-align: center;
+        margin-left: 30px;
+    }
+        
 		.hero .btn {
 			display: block;
 			width: 80%;
