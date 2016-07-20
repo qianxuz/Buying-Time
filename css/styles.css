@@ -40,6 +40,10 @@ li.process-work {
     padding-right: 50px;
 }
 
+.center-title {
+    margin-left: 10px;
+}
+
 .portfolio-icon {
     display: inline-block;
     font-size: 25px;

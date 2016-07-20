@@ -32,7 +32,10 @@
         height: auto;
         padding-top: 75px;
         padding-bottom: 25px;
-        
+    }
+    
+    .center-title {
+        text-align: center;
     }
     
     .spacer1, .spacer2, .spacer3 {
