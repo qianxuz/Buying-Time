@@ -40,6 +40,10 @@ h3 span {
     line-height: 3;
 }
 
+h3.method-text {
+    color: white;
+}
+
 li.process-work {
     color: white;
     padding-left: 25px;
@@ -48,6 +52,11 @@ li.process-work {
 
 .center-title {
     margin-left: 10px;
+}
+
+.head-image {
+    width: 200px;
+    padding-top: 40px
 }
 
 .portfolio-icon {
