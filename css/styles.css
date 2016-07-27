@@ -1006,6 +1006,18 @@ Features-stack
     opacity: 0;
 }
 
+.blog .blog-img-wrap .overlay-dark {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
 .blog .blog-img-wrap i {
     color: #fff;
     font-size: 20px;
@@ -1025,6 +1037,14 @@ Features-stack
 
 .blog .blog-img-wrap:hover .overlay,
 .blog .blog-img-wrap:focus .overlay {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+    filter: alpha(opacity=1);
+    opacity: 1;
+    z-index: 9;
+}
+
+.blog .blog-img-wrap:hover .overlay-dark,
+.blog .blog-img-wrap:focus .overlay-dark {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
     filter: alpha(opacity=1);
     opacity: 1;
